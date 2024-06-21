@@ -1,4 +1,4 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose from "mongoose";
 
 const Candidate = new mongoose.Schema({
     name: {
@@ -24,7 +24,7 @@ const Candidate = new mongoose.Schema({
                 type:Date,
                 default:Date.now()
             }
-        }
+        },
     ],
     voteCount:{
         type:Number,

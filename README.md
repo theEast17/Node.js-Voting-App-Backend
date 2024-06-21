@@ -31,3 +31,7 @@ admin-
 1. /candidates  -  POST - create new candidate
 2. /candidates/:candidateId - PUT - update candidate
 3. /candidates/:candidateId - DELETE - delete candidate
+
+
+
+only single admin should be in the database
